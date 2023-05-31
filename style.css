@@ -1,0 +1,160 @@
+/** {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+@font-face {
+    font-family: 'VW Head';
+    src: url(/assets/fonts/VWHeadRegular.otf);
+}
+
+.header {
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+    /*align-items: center;*/
+}
+
+.menu {
+    width: 146px;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo {
+    width: 48px;
+    height: 32px
+}
+
+
+.btn_menu {
+    /* display: flex;*/
+    width: 48px;
+    height: 32px;
+}
+
+.boas_vindas {
+
+    height: 80px;
+    width: 1000;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    margin-top: 70px;
+
+
+}
+
+.boas_vindas_sol {
+
+    width: 461px;
+    height: 76px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 17px;
+
+
+}
+
+.boas_vindas_sol span {
+    margin-left: 14px;
+    font-family: 'VW Head';
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-right: 14px;
+
+
+}
+
+.boas_vindas_squads {
+
+    width: 830px;
+    height: 76px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    border: 1px solid black;
+    border-radius: 17px;
+
+
+}
+
+.boas_vindas_squads span {
+
+    margin-left: 14px;
+    font-family: 'VW Head';
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.boas_vindas button {
+    background: linear-gradient(90.76deg, #041861 -9.73%, #4BABE8 53.67%);
+
+
+    /* box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);*/
+    backdrop-filter: blur(25px);
+
+    padding: 20px 70px;
+    border-radius: 17px;
+
+
+    font-family: 'VW Head';
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    width: 328px;
+    height: 76px;
+    text-align: center;
+    border: none;
+}
+
+.squad{
+    height: 80px;
+    width: 1000;
+    display: flex;
+    /*align-items: center;*/
+    justify-content: space-between;
+    font-family: 'VW Head';
+    font-weight: 700;
+    text-transform: uppercase;
+
+    margin-top: 35px;
+}
+
+.squad_nome{
+
+    width: 380px;
+    height: 76px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 17px;
+}
+
+.squad_numero{
+
+    width: 200px;
+    height: 76px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 17px;
+    
+}
+
+.squad_usuarios{
+    align-items: end;
+    
+
+}
